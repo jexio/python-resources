@@ -68,9 +68,9 @@
 > Разбор кода на токены -> построение AST -> оптимизации -> генерация байткода -> выполнение байткода в виртуальной машине. Стандартный интерпретатор - cpython (написан на языке C https://github.com/python/cpython). Альтернативные - pypy (написан на питоне, с JIT), ironpython (C#) и jython(java) - под специфические задачи, не без проблем и особым спросом не пользуются. 
 > Для решения проблем и получения ответов на свои вопросы полезно 1) уметь разбирать байткод 2) знать структуру cpython и уметь читать сишный код
 
-1. ~~Что внутри у Питона: как работает интерпретатор https://www.youtube.com/watch?v=at30AmjPsy4
-2. ~~Внутреннее устройство интерпретатора CPython https://www.youtube.com/watch?v=O9LeNPiftgk
-3. ~~Внутри виртуальной машины Python. https://habr.com/ru/post/501338/ (ч1), https://habr.com/ru/post/501920/ (ч2)
+1. ~~Что внутри у Питона: как работает интерпретатор https://www.youtube.com/watch?v=at30AmjPsy4~~
+2. ~~Внутреннее устройство интерпретатора CPython https://www.youtube.com/watch?v=O9LeNPiftgk~~
+3. ~~Внутри виртуальной машины Python. https://habr.com/ru/post/501338/ (ч1), https://habr.com/ru/post/501920/ (ч2)~~
 4. Your Guide to the CPython Source Code (Real python) https://realpython.com/cpython-source-code-guide/
 5. Внутреннее устройство интерпретатора CPython (урок от Otus) https://www.youtube.com/watch?v=O9LeNPiftgk
 6. Устройство CPython. Лекция из Академии Яндекса https://www.youtube.com/watch?v=PxIqLgjtQ5Y&list=PLQC2_0cDcSKBHamFYA6ncnc_fYuEQUy0s
@@ -94,32 +94,32 @@
 <a name="datatypes"></a>
 ### Типы данных. Коллекции [^](#index "к оглавлению")
 > Все в питоне является объектом. Чтобы узнать тип объекта `x`, нужно вызвать `type(x)`, список методов и свойств - `dir(x)`, справку по методу - `help(x.some_method)`. Основные коллекции - list, tuple, dict, set, а также несколько интересных коллекций есть в модуле `collections`
-1. ~~Лекция про коллекции и модуль `collections` от CSC https://www.youtube.com/watch?v=kmdA7zJS9gw, лекция про строки, байты https://www.youtube.com/watch?v=VY95vgOROo8
-2. ~~Basic Data Types in Python (real python) https://realpython.com/python-data-types/
-3. ~~Dictionaries in Python (real python) https://realpython.com/python-dicts/
-4. ~~Sets in Python (real python) https://realpython.com/python-sets/
-5. ~~Lists and Tuples in Python (real python) https://realpython.com/python-lists-tuples/
-6. ~~Linked Lists in Python: An Introduction (real python) https://realpython.com/linked-lists-python/
-7. ~~Strings and Character Data in Python (real python) https://realpython.com/python-strings/ 
-8. ~~Numbers in Python https://realpython.com/python-numbers/
-9. ~~Модуль collections из стандартной библиотеки https://habr.com/ru/post/478934/
-10. ~~The Python heapq Module: Using Heaps and Priority Queues (real python) https://realpython.com/python-heapq-module/
-11. ~~Python Data Structures: Sets, Frozensets, and Multisets (real python) https://www.youtube.com/watch?v=b-K1ujf8u_k
-12. ~~When to Use a List Comprehension in Python https://realpython.com/list-comprehension-python/
-13. ~~Null in Python: Understanding Python's NoneType Object https://realpython.com/null-in-python/
-14. ~~Common Python Data Structures (Guide) https://realpython.com/python-data-structures/
-15. ~~Робот в лабиринте: обрабатываем в Python очереди с приоритетом (heapq) https://proglib.io/p/robot-v-labirinte-obrabatyvaem-ocheredi-s-prioritetom-v-python-2020-07-07
-16. ~~Очередь для использования в многопоточных приложениях https://docs.python.org/3/library/queue.html
-17. ~~Raymond Hettinger - Dataclasses: The code generator to end all code generators - PyCon 2018 https://www.youtube.com/watch?v=T-TwcmT6Rcw
+1. ~~Лекция про коллекции и модуль `collections` от CSC https://www.youtube.com/watch?v=kmdA7zJS9gw, лекция про строки, байты https://www.youtube.com/watch?v=VY95vgOROo8~~
+2. ~~Basic Data Types in Python (real python) https://realpython.com/python-data-types/~~
+3. ~~Dictionaries in Python (real python) https://realpython.com/python-dicts/~~
+4. ~~Sets in Python (real python) https://realpython.com/python-sets/~~
+5. ~~Lists and Tuples in Python (real python) https://realpython.com/python-lists-tuples/~~
+6. ~~Linked Lists in Python: An Introduction (real python) https://realpython.com/linked-lists-python/~~
+7. ~~Strings and Character Data in Python (real python) https://realpython.com/python-strings/~~
+8. ~~Numbers in Python https://realpython.com/python-numbers/~~
+9. ~~Модуль collections из стандартной библиотеки https://habr.com/ru/post/478934/~~
+10. ~~The Python heapq Module: Using Heaps and Priority Queues (real python) https://realpython.com/python-heapq-module/~~
+11. ~~Python Data Structures: Sets, Frozensets, and Multisets (real python) https://www.youtube.com/watch?v=b-K1ujf8u_k~~
+12. ~~When to Use a List Comprehension in Python https://realpython.com/list-comprehension-python/~~
+13. ~~Null in Python: Understanding Python's NoneType Object https://realpython.com/null-in-python/~~
+14. ~~Common Python Data Structures (Guide) https://realpython.com/python-data-structures/~~
+15. ~~Робот в лабиринте: обрабатываем в Python очереди с приоритетом (heapq) https://proglib.io/p/robot-v-labirinte-obrabatyvaem-ocheredi-s-prioritetom-v-python-2020-07-07~~
+16. ~~Очередь для использования в многопоточных приложениях https://docs.python.org/3/library/queue.html~~
+17. ~~Raymond Hettinger - Dataclasses: The code generator to end all code generators - PyCon 2018 https://www.youtube.com/watch?v=T-TwcmT6Rcw~~
 
 <a name="instructions"></a>
 ### Циклы, условия, операторы [^](#index "к оглавлению")
 > Поведение объектов с тем или иным оператором определяется реализацией у него соответствующего магического метода.
-1. ~~Operators and Expressions in Python (real python) https://realpython.com/python-operators-expressions/
-2. ~~Operator and Function Overloading in Custom Python Classes (real python) https://realpython.com/operator-function-overloading/
-3. ~~Conditional Statements in Python (real python) https://realpython.com/python-conditional-statements/
-4. ~~Python "while" Loops (Indefinite Iteration) (real python) https://realpython.com/python-while-loop/
-5. ~~Python "for" Loops (Definite Iteration) (real python)  https://realpython.com/python-for-loop/
+1. ~~Operators and Expressions in Python (real python) https://realpython.com/python-operators-expressions/~~
+2. ~~Operator and Function Overloading in Custom Python Classes (real python) https://realpython.com/operator-function-overloading/~~
+3. ~~Conditional Statements in Python (real python) https://realpython.com/python-conditional-statements/~~
+4. ~~Python "while" Loops (Indefinite Iteration) (real python) https://realpython.com/python-while-loop/~~
+5. ~~Python "for" Loops (Definite Iteration) (real python)  https://realpython.com/python-for-loop/~~
 
 <a name="iterators"></a>
 ### Итераторы и генераторы. Сопрограммы [^](#index "к оглавлению")

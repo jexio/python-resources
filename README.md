@@ -567,22 +567,6 @@
 4. Mohamed Mustapha Tahrioui: asyncio Recipes. A Problem-Solution Approach https://www.apress.com/gp/book/9781484244005
 5. Caleb Hattingh: Using Asyncio in Python https://www.oreilly.com/library/view/using-asyncio-in/9781492075325/
 
-### Telegram-каналы [^](#index "к оглавлению")
-1. pythonist.ru (статьи и задачки для собеседований) https://t.me/pythonist_ru
-2. Книги https://t.me/python_textbooks
-3. Задачки, в основном несложные https://t.me/pythonquestions
-4. Англоязычный канал со статьями https://t.me/pythonl
-5. Тесты https://t.me/pythontesti
-6. Proglib (статьи, не только питон) https://t.me/proglibrary
-7. Лучшие статьи https://t.me/zen_of_python
-
-### Тесты и задачки для проверки знаний [^](#index "к оглавлению")
-1. Real Python Quizzes https://realpython.com/quizzes/
-2. PYnative Python Quizes https://pynative.com/python-quizzes/
-
-### Рассылки
-1. Еженедельная рассылка со свежими новостями и полезностями https://pycoders.com/
-
 ###  Митапы и конференции [^](#index "к оглавлению")
 1. Moscow python meetup (+ Moscow python conf) https://www.youtube.com/user/moscowdjangoru
 2. Minsk python meetup https://www.youtube.com/user/pythonMinsk 

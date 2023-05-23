@@ -31,7 +31,6 @@
   * [Работа с данными](#datalibs)
   * [Работа с файлами](#files)
   * [Сетевое программирование](#network)
-  * [GUI](#gui)
   * [Мониторинг приложений средствами ОС](#os)
   * [Нагрузочное тестирование python-приложений](#load_testing)
 * [Полезное](#useful)
@@ -42,16 +41,16 @@
 
 > Хорошие курсы для начала
 
-1. Специализация Программирование на Python от МФТИ и Mail.Ru Group (все курсы хорошие) https://www.coursera.org/specializations/programming-in-python
-2. Академия Яндекса, Школа бэкенд-разработки 2019 на питоне https://www.youtube.com/playlist?list=PLQC2_0cDcSKBHamFYA6ncnc_fYuEQUy0s
-3. Computer Science Center, Программирование на Python, 2021, Преподаватель курса: Иван Бибилов https://www.youtube.com/playlist?list=PLlb7e2G7aSpQmGnhrxlqI4iMXNv4R7khy
-4. Computer Science Center, Программирование на Python, осень 2018, Преподаватель курса: Алексей Александрович Кладов https://www.youtube.com/playlist?list=PLlb7e2G7aSpQhNphPSpcO4daaRPeVstku
-5. Computer Science Center, Python, 2016, Преподаватель курса: Сергей Лебедев https://www.youtube.com/playlist?list=PLlb7e2G7aSpTTNp7HBYzCBByaE1h54ruW
-6. Технострим Mail.Ru Group, Прикладной Python (осень 2018) https://www.youtube.com/playlist?list=PLrCZzMib1e9qM62lMXC90SiFy7-1-kAPJ
+1. ~~Специализация Программирование на Python от МФТИ и Mail.Ru Group (все курсы хорошие) https://www.coursera.org/specializations/programming-in-python~~
+2. ~~Академия Яндекса, Школа бэкенд-разработки 2019 на питоне https://www.youtube.com/playlist?list=PLQC2_0cDcSKBHamFYA6ncnc_fYuEQUy0s~~
+3. ~~Computer Science Center, Программирование на Python, 2021, Преподаватель курса: Иван Бибилов https://www.youtube.com/playlist?list=PLlb7e2G7aSpQmGnhrxlqI4iMXNv4R7khy~
+4. ~~Computer Science Center, Программирование на Python, осень 2018, Преподаватель курса: Алексей Александрович Кладов https://www.youtube.com/playlist?list=PLlb7e2G7aSpQhNphPSpcO4daaRPeVstku~~
+5. ~~Computer Science Center, Python, 2016, Преподаватель курса: Сергей Лебедев https://www.youtube.com/playlist?list=PLlb7e2G7aSpTTNp7HBYzCBByaE1h54ruW~~
+6. ~~Технострим Mail.Ru Group, Прикладной Python (осень 2018) https://www.youtube.com/playlist?list=PLrCZzMib1e9qM62lMXC90SiFy7-1-kAPJ~~
 7. ~~Python tricks (Intermediate and Advanced Features) от Дена Бадера https://www.youtube.com/playlist?list=PLP8GkvaIxJP0VAXF3USi9U4JnpxUvQXHx~~
 8. Intermediate Python Programming Course (freeCodeCamp.org) https://www.youtube.com/watch?v=HGOBQPFzWKo
 9. Курс "Python для сетевых инженеров" Н. Самойленко https://www.youtube.com/playlist?list=PLah0HUih_ZRnJFNdZsWr2pNWgYETauGXo
-10. Небольшие видео по основным темам от Михаила Корнеева https://www.youtube.com/channel/UC2-j4-hV33hboyK1FtukJ9w/videos
+10. ~~Небольшие видео по основным темам от Михаила Корнеева https://www.youtube.com/channel/UC2-j4-hV33hboyK1FtukJ9w/videos~~
 11. Школа бэкенд-разработки 2021 от Яндекса по python https://www.youtube.com/playlist?list=PLQC2_0cDcSKCMKnywAS8eI_EgCcE3yx0r
 
 <a name="books_online"></a>
@@ -173,8 +172,8 @@
 <a name="stdlib"></a>
 ### Возможности стандартной библиотеки [^](#index "к оглавлению")
 > У питона богатейшая стандартная библиотека. Там есть все, что нужно и даже больше
-1. Официальная документация https://docs.python.org/3/library/
-2. Python 3 Module of the Week (разбор модулей стандартной библиотеки с примерами) https://pymotw.com/3/
+1. ~~Официальная документация https://docs.python.org/3/library/~~
+2. ~~Python 3 Module of the Week (разбор модулей стандартной библиотеки с примерами) https://pymotw.com/3/~~
 
 <a name="debugging"></a>
 ### Дебаггинг [^](#index "к оглавлению")
@@ -220,7 +219,7 @@
 11. How import works in Python (PyCon India 2018) https://www.youtube.com/watch?v=-mL5WBMseD4
 12. What happens behind execution of an `import` statement? (Shivashis) [PyCon JP 2020] https://www.youtube.com/watch?v=0far0mS2lY8
 13. Python Management and Project Dependencies, Mark McDonnell https://www.integralist.co.uk/posts/python-management/
-14. Григорий Петров / Управление зависимостями в Python: история боли https://www.youtube.com/watch?v=fP8oGx6ZA5o
+14. ~~Григорий Петров / Управление зависимостями в Python: история боли https://www.youtube.com/watch?v=fP8oGx6ZA5o~~
 15. Unpack Python Packages – Deep dive into the wheels of python packaging  https://www.youtube.com/watch?v=kO5Es7KKUIY
 
 <a name="gil"></a>
@@ -315,7 +314,7 @@
 12. Lynn Root - Advanced asyncio: Solving Real-world Production Problems - PyCon 2019 https://www.youtube.com/watch?v=bckD_GK80oY
 13. Asyncio in the Wild, Ákos Hochrein (теория + обзор библиотек для asyncio) https://www.youtube.com/watch?v=EX4YsevmZBg
 14. An introduction to concurrent programming with asyncio (Bruce Merry) (PyCon SA 2018) https://www.youtube.com/watch?v=x1RXHcE3oVI
-15. Tornado in Depth [EuroPython 2012] (исторический доклад) https://www.youtube.com/watch?v=4Ztq-Yz1ero
+15. ~~Tornado in Depth [EuroPython 2012] (исторический доклад) https://www.youtube.com/watch?v=4Ztq-Yz1ero~~
 16. import asyncio: Learn Python's AsyncIO (цикл подробных лекций про asyncio) https://www.youtube.com/watch?v=Xbl7XjFYsN4&list=PLhNSoGM2ik6SIkVGXWBwerucXjgP1rHmB
 17. Екатерина Сударева - Асинхронность в Python. Начало https://www.youtube.com/watch?v=OmDKVuROsUM
 18. Trio – асинхронное программирование для людей https://habr.com/ru/company/barsgroup/blog/490872/
@@ -438,24 +437,24 @@
 
 <a name="quality"></a>
 ### Утилиты для улучшения качества кода [^](#index "к оглавлению")
-1. Python Code Quality: Tools & Best Practices https://realpython.com/python-code-quality/
-2. Как прокачать линтер. Максим Мазаев https://www.youtube.com/watch?v=HZPRoz8V6jk (этот же доклад https://www.youtube.com/watch?v=ZKoBZkdYLiM и статья https://habr.com/ru/company/oleg-bunin/blog/433474/)
-3. Презентация "HOW TO WRITE PYLINT PLUGINS" Александра Тодорова https://piterpy.com/system/attachments/files/000/001/519/original/how_to_write_pylint_plugins_PiterPy_2018.pdf  
-4. Аннотации типов в Python 3 (урок OTUS) https://youtu.be/I09iX8aoCsw?t=313
+1. ~~Python Code Quality: Tools & Best Practices https://realpython.com/python-code-quality/~~
+2. ~~Как прокачать линтер. Максим Мазаев https://www.youtube.com/watch?v=HZPRoz8V6jk (этот же доклад https://www.youtube.com/watch?v=ZKoBZkdYLiM и статья https://habr.com/ru/company/oleg-bunin/blog/433474/)~~
+3. ~~Презентация "HOW TO WRITE PYLINT PLUGINS" Александра Тодорова https://piterpy.com/system/attachments/files/000/001/519/original/how_to_write_pylint_plugins_PiterPy_2018.pdf  ~~
+4. ~~Аннотации типов в Python 3 (урок OTUS) https://youtu.be/I09iX8aoCsw?t=313~~
 5. «Модифицируй это!» или «Больше магии Python с помощью изменения AST» (А. Маршалов) https://www.youtube.com/watch?v=Zv6yT-ytIvg
-6. Инструменты для анализа кода Python https://proglib.io/p/python-code-analysis (ч.1), https://proglib.io/p/python-code-analysis-tools (ч.2)
-7. Г. Петров PyRe: еще один type checker https://www.youtube.com/watch?v=-Lz81ex3jP8
+6. ~~Инструменты для анализа кода Python https://proglib.io/p/python-code-analysis (ч.1), https://proglib.io/p/python-code-analysis-tools (ч.2)~~
+7. ~~Г. Петров PyRe: еще один type checker https://www.youtube.com/watch?v=-Lz81ex3jP8~~
 8. Разработка плагинов к mypy / Владимир Пузаков https://www.youtube.com/watch?v=l7hDWA5uC0A
 9. Python Type Checking (Guide) https://realpython.com/python-type-checking/
 10. Bernat Gabor - Type hinting (and mypy) - PyCon 2019 https://www.youtube.com/watch?v=hTrjTAPnA_k
 11. Максим Мазаев, ЦИАН "Проверка типов в большом проекте" https://www.youtube.com/watch?v=iEuTGu1ks7I
 12. Łukasz Langa - Life Is Better Painted Black, or: How to Stop Worrying and Embrace Auto-Formatting https://www.youtube.com/watch?v=esZLCuWs_2Y
 13. Dustin Ingram - Static Typing in Python (pycon) https://www.youtube.com/watch?v=ST33zDM9vOE
-14. Как работать с типизацией в Python (tproger) https://tproger.ru/articles/python-typing/
+14. ~~Как работать с типизацией в Python (tproger) https://tproger.ru/articles/python-typing/~~
 15. Alexander Todorov: "How to write pylint plugins" / #PiterPy https://www.youtube.com/watch?v=3CkSKUNMLJc
-16. Добровольная типизация в Python 3 (и не только), Максим Кольцов / PiterPy Meetup #12 https://www.youtube.com/watch?v=EU9DoJD1olo
+16. ~~Добровольная типизация в Python 3 (и не только), Максим Кольцов / PiterPy Meetup #12 https://www.youtube.com/watch?v=EU9DoJD1olo~~
 17. Refactoring Code With the Standard Library (AST/CST), John Reese, PyCon AU 2018 https://www.youtube.com/watch?v=9USGh4Uy-xQ
-18. A flake8 plugin from scratch (intermediate) anthony explains https://www.youtube.com/watch?v=ot5Z4KQPBL8
+18. ~~A flake8 plugin from scratch (intermediate) anthony explains https://www.youtube.com/watch?v=ot5Z4KQPBL8~~
 
 <a name="security"></a>
 ### Вопросы безопасности [^](#index "к оглавлению")
@@ -503,17 +502,6 @@
 1. Python 3 — Сетевое программирование https://coderlessons.com/tutorials/python-technologies/izuchite-python-3/python-3-setevoe-programmirovanie
 2. Network Programming with Python Course (freeCodeCamp.org) https://www.youtube.com/watch?v=FGdiSJakIS4
 3. Сокеты в Python для начинающих https://habr.com/ru/post/149077/
-
-<a name="gui"></a>
-### GUI [^](#index "к оглавлению")
-> На питоне можно разрабатывать программы с графическим интерфейсом - для этого есть несколько популярных библиотек
-1. Серия статей Python GUI Programming (RealPython). Обзор библиотек PySimpleGUI, Tkinter, PyQt, wxPython https://realpython.com/learning-paths/python-gui-programming/ 
-2. Python GUI: создаём простое приложение с PyQt и Qt Designer (tproger) https://tproger.ru/translations/python-gui-pyqt/
-3. 13 GUI-библиотек Python https://techrocks.ru/2018/04/26/13-python-gui-frameworks/
-4. Серия статей о PyQT5 с примерами http://zetcode.com/gui/pyqt5/
-5. Tkinter Course - Create Graphic User Interfaces in Python Tutorial (freecodecamp) https://www.youtube.com/watch?v=YXPyB4XeYLA
-6. Создание desktop-приложений на Python (доклад на MoscowPython) https://www.youtube.com/watch?v=nz6G_ta3of0
-7. PyQt Layouts: Create Professional-Looking GUI Applications (realpython) https://realpython.com/python-pyqt-layout/
 
 <a name="os"></a>
 ### Мониторинг приложений средствами ОС [^](#index "к оглавлению")
@@ -565,12 +553,11 @@
 2. Данжу Джульен: Путь Python. Черный пояс по разработке, масштабированию, тестированию и развертыванию https://www.ozon.ru/context/detail/id/158868396/
 3. Бейдер Дэн: Чистый Python. Тонкости программирования для профи https://www.ozon.ru/context/detail/id/146393762/
 4. Mohamed Mustapha Tahrioui: asyncio Recipes. A Problem-Solution Approach https://www.apress.com/gp/book/9781484244005
-5. Caleb Hattingh: Using Asyncio in Python https://www.oreilly.com/library/view/using-asyncio-in/9781492075325/
 
 ###  Митапы и конференции [^](#index "к оглавлению")
 1. Moscow python meetup (+ Moscow python conf) https://www.youtube.com/user/moscowdjangoru
 2. Minsk python meetup https://www.youtube.com/user/pythonMinsk 
-3. Python Meetup Chelyabinsk https://www.youtube.com/channel/UCpMh_XSn7yGPabFBYzY5hKg
+3. ~~Python Meetup Chelyabinsk https://www.youtube.com/channel/UCpMh_XSn7yGPabFBYzY5hKg~~
 4. Python Новосибирск https://www.youtube.com/c/PyNSK/
 5. PyCon Russia https://www.youtube.com/user/videoitpeople/videos
 6. Moscow Python Conf++ https://www.youtube.com/channel/UCqC1iSQnRIDz_rOy8LHe69g

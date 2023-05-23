@@ -122,17 +122,17 @@
 
 <a name="iterators"></a>
 ### Итераторы и генераторы. Сопрограммы [^](#index "к оглавлению")
-1. Лекция про итераторы, генераторы и корутины от CSC https://www.youtube.com/watch?v=Xxuy1zFCMhc
-2. Корутины для самых маленьких. Иван Гончарук, DAN https://www.youtube.com/watch?v=_obr60qv6rM
-3. Как устроены корутины? / Дмитрий Калугин-Балашов (Exnodes Inc.) https://www.youtube.com/watch?v=vhf5lU1suL0
-4. Itertools in Python 3, By Example https://realpython.com/python-itertools/
-5. How to Use Generators and yield in Python https://realpython.com/introduction-to-python-generators/ 
-6. Как работает yield https://habr.com/ru/post/132554/
-7. Презентации Д.Бизли по генераторам (http://dabeaz.com/generators/) и сопрограммам (http://dabeaz.com/coroutines/)
-8. Python 101: iterators, generators, coroutines, Mark McDonnell https://www.integralist.co.uk/posts/python-generators/
-9. What is a Coroutine Anyway? (John Reese, North Bay Python 2019) https://www.youtube.com/watch?v=GSiZkP7cI80
-10. Подробно о корутинах в C++ (сравниваются стековые и бесстековые корутины) https://habr.com/ru/company/piter/blog/491996/
-11. Александр Кошкин "Знай и люби свой yield. Корутины и генераторы за гранью for loop" https://www.youtube.com/watch?v=-E1V24zZJrs
+1. ~~Лекция про итераторы, генераторы и корутины от CSC https://www.youtube.com/watch?v=Xxuy1zFCMhc~~
+2. ~~Корутины для самых маленьких. Иван Гончарук, DAN https://www.youtube.com/watch?v=_obr60qv6rM~~
+3. ~~Как устроены корутины? / Дмитрий Калугин-Балашов (Exnodes Inc.) https://www.youtube.com/watch?v=vhf5lU1suL0~~
+4. ~~Itertools in Python 3, By Example https://realpython.com/python-itertools/~~
+5. ~~How to Use Generators and yield in Python https://realpython.com/introduction-to-python-generators/~~
+6. ~~Как работает yield https://habr.com/ru/post/132554/~~
+7. ~~Презентации Д.Бизли по генераторам (http://dabeaz.com/generators/) и сопрограммам (http://dabeaz.com/coroutines/)~~
+8. ~~Python 101: iterators, generators, coroutines, Mark McDonnell https://www.integralist.co.uk/posts/python-generators/~~
+9. ~~What is a Coroutine Anyway? (John Reese, North Bay Python 2019) https://www.youtube.com/watch?v=GSiZkP7cI80~~
+10. ~~Подробно о корутинах в C++ (сравниваются стековые и бесстековые корутины) https://habr.com/ru/company/piter/blog/491996/~~
+11. ~~Александр Кошкин "Знай и люби свой yield. Корутины и генераторы за гранью for loop" https://www.youtube.com/watch?v=-E1V24zZJrs~~
 
 <a name="functions"></a>
 ### Функции. Замыкания. Декораторы. ФП [^](#index "к оглавлению")

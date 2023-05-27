@@ -6,10 +6,6 @@
 * [Книги онлайн](#books_online)
 * [По темам (+ краткий конспект)](#parts)
   * [Внутренности питона](#internals)
-  * [Типы данных. Коллекции](#datatypes)
-  * [Циклы, условия, операторы](#instructions)
-  * [Итераторы и генераторы. Сопрограммы](#iterators)
-  * [Функции. Замыкания. Декораторы. ФП](#functions)
   * [ООП. Магические методы. Протокол дескрипторов. Метаклассы. Статические методы и методы класса](#OOP)
   * [Возможности стандартной библиотеки](#stdlib)
   * [Дебаггинг](#debugging)
@@ -90,62 +86,6 @@
 21. Dominik ‘disconnect3d’ Czarnota - Python internals - how does CPython work? https://www.youtube.com/watch?v=4QJOEeldFUc
 22. CPython internals and the VM https://www.youtube.com/watch?v=cUyMnGeZ_3c
 
-<a name="datatypes"></a>
-### Типы данных. Коллекции [^](#index "к оглавлению")
-> Все в питоне является объектом. Чтобы узнать тип объекта `x`, нужно вызвать `type(x)`, список методов и свойств - `dir(x)`, справку по методу - `help(x.some_method)`. Основные коллекции - list, tuple, dict, set, а также несколько интересных коллекций есть в модуле `collections`
-1. ~~Лекция про коллекции и модуль `collections` от CSC https://www.youtube.com/watch?v=kmdA7zJS9gw, лекция про строки, байты https://www.youtube.com/watch?v=VY95vgOROo8~~
-2. ~~Basic Data Types in Python (real python) https://realpython.com/python-data-types/~~
-3. ~~Dictionaries in Python (real python) https://realpython.com/python-dicts/~~
-4. ~~Sets in Python (real python) https://realpython.com/python-sets/~~
-5. ~~Lists and Tuples in Python (real python) https://realpython.com/python-lists-tuples/~~
-6. ~~Linked Lists in Python: An Introduction (real python) https://realpython.com/linked-lists-python/~~
-7. ~~Strings and Character Data in Python (real python) https://realpython.com/python-strings/~~
-8. ~~Numbers in Python https://realpython.com/python-numbers/~~
-9. ~~Модуль collections из стандартной библиотеки https://habr.com/ru/post/478934/~~
-10. ~~The Python heapq Module: Using Heaps and Priority Queues (real python) https://realpython.com/python-heapq-module/~~
-11. ~~Python Data Structures: Sets, Frozensets, and Multisets (real python) https://www.youtube.com/watch?v=b-K1ujf8u_k~~
-12. ~~When to Use a List Comprehension in Python https://realpython.com/list-comprehension-python/~~
-13. ~~Null in Python: Understanding Python's NoneType Object https://realpython.com/null-in-python/~~
-14. ~~Common Python Data Structures (Guide) https://realpython.com/python-data-structures/~~
-15. ~~Робот в лабиринте: обрабатываем в Python очереди с приоритетом (heapq) https://proglib.io/p/robot-v-labirinte-obrabatyvaem-ocheredi-s-prioritetom-v-python-2020-07-07~~
-16. ~~Очередь для использования в многопоточных приложениях https://docs.python.org/3/library/queue.html~~
-17. ~~Raymond Hettinger - Dataclasses: The code generator to end all code generators - PyCon 2018 https://www.youtube.com/watch?v=T-TwcmT6Rcw~~
-
-<a name="instructions"></a>
-### Циклы, условия, операторы [^](#index "к оглавлению")
-> Поведение объектов с тем или иным оператором определяется реализацией у него соответствующего магического метода.
-1. ~~Operators and Expressions in Python (real python) https://realpython.com/python-operators-expressions/~~
-2. ~~Operator and Function Overloading in Custom Python Classes (real python) https://realpython.com/operator-function-overloading/~~
-3. ~~Conditional Statements in Python (real python) https://realpython.com/python-conditional-statements/~~
-4. ~~Python "while" Loops (Indefinite Iteration) (real python) https://realpython.com/python-while-loop/~~
-5. ~~Python "for" Loops (Definite Iteration) (real python)  https://realpython.com/python-for-loop/~~
-
-<a name="iterators"></a>
-### Итераторы и генераторы. Сопрограммы [^](#index "к оглавлению")
-1. ~~Лекция про итераторы, генераторы и корутины от CSC https://www.youtube.com/watch?v=Xxuy1zFCMhc~~
-2. ~~Корутины для самых маленьких. Иван Гончарук, DAN https://www.youtube.com/watch?v=_obr60qv6rM~~
-3. ~~Как устроены корутины? / Дмитрий Калугин-Балашов (Exnodes Inc.) https://www.youtube.com/watch?v=vhf5lU1suL0~~
-4. ~~Itertools in Python 3, By Example https://realpython.com/python-itertools/~~
-5. ~~How to Use Generators and yield in Python https://realpython.com/introduction-to-python-generators/~~
-6. ~~Как работает yield https://habr.com/ru/post/132554/~~
-7. ~~Презентации Д.Бизли по генераторам (http://dabeaz.com/generators/) и сопрограммам (http://dabeaz.com/coroutines/)~~
-8. ~~Python 101: iterators, generators, coroutines, Mark McDonnell https://www.integralist.co.uk/posts/python-generators/~~
-9. ~~What is a Coroutine Anyway? (John Reese, North Bay Python 2019) https://www.youtube.com/watch?v=GSiZkP7cI80~~
-10. ~~Подробно о корутинах в C++ (сравниваются стековые и бесстековые корутины) https://habr.com/ru/company/piter/blog/491996/~~
-11. ~~Александр Кошкин "Знай и люби свой yield. Корутины и генераторы за гранью for loop" https://www.youtube.com/watch?v=-E1V24zZJrs~~
-
-<a name="functions"></a>
-### Функции. Замыкания. Декораторы. ФП [^](#index "к оглавлению")
-> Декоратор - часто используемый шаблон проектирования в питоне, для которого есть даже специальный синтаксический сахар `@deco\nmethod` - то же самое что `method=deco(method)` как мы написали бы на других ЯП. В декораторы можно передавать аргументы.
-1. Лекция по ООП и декораторам от Акадении Яндекса https://youtu.be/Db19qjrMsYI?t=2596
-2. Функциональное программирование и работа с данными (+ декораторы) (урок OTUS) https://www.youtube.com/watch?v=iHT2OlrCBgs
-3. Скринкаст Олега Молчанова по декораторам https://www.youtube.com/watch?v=Ss1M32pp5Ew
-4. Лекции про функции https://www.youtube.com/watch?v=VrShEItN0Jc и декораторы https://www.youtube.com/watch?v=rkjg71GJPvA от CSC
-5. Optional Arguments in Python With `*args` and `**kwargs` https://www.youtube.com/watch?v=WcTXxX3vYgY
-6. How to Use Python Lambda Functions https://realpython.com/python-lambda/
-7. Python's map(): Processing Iterables Without a Loop https://realpython.com/python-map-function/
-8. Tutorial: Geir Arne Hjelle - Introduction to Decorators: Power Up Your Python Code (Pycon US) https://www.youtube.com/watch?v=T8CQwGIsrx4
-9. Reuven M. Lerner - Practical decorators - PyCon 2019 https://www.youtube.com/watch?v=MjHpMCIvwsY
 
 <a name="OOP"></a>
 ### ООП. Магические методы. Протокол дескрипторов. Метаклассы. Статические методы и методы класса [^](#index "к оглавлению")
@@ -168,12 +108,6 @@
 16. Mariano Anaya - Discovering Descriptors (EuroPython 2017) https://www.youtube.com/watch?v=TAuC086NNmo
 17. Ariel Ortiz - The Perils of Inheritance: Why We Should Prefer Composition - PyCon 2019 https://www.youtube.com/watch?v=YXiaWtc0cgE
 18. Ariel Ortiz - Design Patterns in Python for the Untrained Eye - PyCon 2019 https://www.youtube.com/watch?v=o1FZ_Bd4DSM
-
-<a name="stdlib"></a>
-### Возможности стандартной библиотеки [^](#index "к оглавлению")
-> У питона богатейшая стандартная библиотека. Там есть все, что нужно и даже больше
-1. ~~Официальная документация https://docs.python.org/3/library/~~
-2. ~~Python 3 Module of the Week (разбор модулей стандартной библиотеки с примерами) https://pymotw.com/3/~~
 
 <a name="debugging"></a>
 ### Дебаггинг [^](#index "к оглавлению")
@@ -325,7 +259,7 @@
 <a name="memory"></a>
 ### Работа с памятью [^](#index "к оглавлению")
 > Питон - очень неэкономный по памяти язык. Иногда возникают задачи, которые требуют знаний про то как питон работает с памятью (счетчик ссылок, арены и GC для циклических ссылок) и как можно эту память сэкономить.
-1. «Память и Python. Что надо знать для счастья?» Алексей Кузьмин, ЦНС https://www.youtube.com/watch?v=D0vbuIDOV4c
+1. ~~«Память и Python. Что надо знать для счастья?» Алексей Кузьмин, ЦНС https://www.youtube.com/watch?v=D0vbuIDOV4c~~
 2. Python потребляет много памяти, или как уменьшить размер объектов. (доклад З.Шибзухова) https://www.youtube.com/watch?v=qUnzGUz_YxE
 3. Что внутри у питона: как устроена память (доклад З. Обуховской) https://www.youtube.com/watch?v=lSgoYx06L_s
 4. В. Синицын - Python: управление памятью https://www.youtube.com/watch?v=ZxvwZ4fX_qE

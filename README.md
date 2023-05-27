@@ -294,7 +294,7 @@
 5. Anthony Shaw - Why is Python slow? (pycon) https://www.youtube.com/watch?v=I4nkgJdVZFA
 6. Python, производительность, перспективы // Кирилл Борисов (Pytup) https://youtu.be/brA7HLZEN4w?t=8669
 7. Что делать, если ваш код на Python тормозит / Григорий Бакунов (Яндекс) https://www.youtube.com/watch?v=77B2-Pk1fls
-8. Григорий Петров - Почему Python медленный? https://www.youtube.com/watch?v=39XNklRQJI4
+8. ~~Григорий Петров - Почему Python медленный? https://www.youtube.com/watch?v=39XNklRQJI4~~
 
 <a name="profiling"></a>
 ### Профайлинг [^](#index "к оглавлению")
@@ -329,7 +329,7 @@
 4. Mario Corchero - Effortless Logging: A deep dive into the logging module - PyCon 2018 https://www.youtube.com/watch?v=Pbz1fo7KlGg
 5. OpenTracing with Jaeger - Utah Go User Group https://www.youtube.com/watch?v=GccUVCI5TkM
 6. OpenTracing не только для распределенной трассировки. Константин Черкасов, Lazada https://www.youtube.com/watch?v=nHgfJ943z2I
-7. OpenTelemetry // Андрей Гейн (Pytup) https://www.youtube.com/watch?v=brA7HLZEN4w&t=1864s
+7. ~~OpenTelemetry // Андрей Гейн (Pytup) https://www.youtube.com/watch?v=brA7HLZEN4w&t=1864s~~
 
 <a name="clang"></a>
 ### Модули на C (C++, Rust, Go) и ctypes [^](#index "к оглавлению")
@@ -367,7 +367,7 @@
 11. Productive pytest with PyCharm (JetBrainsTV) https://www.youtube.com/watch?v=ixqeebhUa-w
 12. How to Write Pytest Plugins - Darlene Wong (PyBay 2019) https://www.youtube.com/watch?v=QwDhzFkE9J4
 13. Automated testing with pytest and fixtures (PyGotham 2017) https://www.youtube.com/watch?v=8mp_1Jt-xHQ
-14. Mocking in Python, Mark McDonnell https://www.integralist.co.uk/posts/mocking-in-python/
+14. ~~Mocking in Python, Mark McDonnell https://www.integralist.co.uk/posts/mocking-in-python/~~
 
 <a name="quality"></a>
 ### Утилиты для улучшения качества кода [^](#index "к оглавлению")
@@ -439,7 +439,7 @@
 
 <a name="os"></a>
 ### Мониторинг приложений средствами ОС [^](#index "к оглавлению")
-1. Более чем 80 средств мониторинга системы Linux https://habr.com/ru/company/ua-hosting/blog/281519/
+1. ~~Более чем 80 средств мониторинга системы Linux https://habr.com/ru/company/ua-hosting/blog/281519/~~
 2. Strace в Linux: история, устройство и использование https://habr.com/ru/company/badoo/blog/493856/
 3. Краткий гайд по использованию GDB https://habr.com/ru/post/491534/
 4. Sysdig — инструмент для диагностики Linux-систем https://habr.com/ru/company/selectel/blog/222839/
@@ -477,7 +477,7 @@
 1. Python инструменты для нагрузочного тестирования https://www.youtube.com/watch?v=-kWm5V9pyCY
 2. Открытые бенчмарки для нагрузочного тестирования серверов и веб-приложений https://habr.com/ru/company/1cloud/blog/474474/
 3. Load Testing with Vegeta https://www.scaleway.com/en/docs/vegeta-load-testing/
-4. Locust: нагрузочное тестирование веб-сервисов / Алексей Романов https://www.youtube.com/watch?v=65Xa__DMhAw
+4. ~~Locust: нагрузочное тестирование веб-сервисов / Алексей Романов https://www.youtube.com/watch?v=65Xa__DMhAw~~
 
 <a name="useful"></a>
 ## Полезное [^](#index "к оглавлению")

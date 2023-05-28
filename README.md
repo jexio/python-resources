@@ -334,7 +334,7 @@
 ### Модули на C (C++, Rust, Go) и ctypes [^](#index "к оглавлению")
 > Когда нужно писать модуль на C: тяжелые вычисления, чтобы отпустить gil, чтобы использовать какую-либо сишную библиотеку, при работе с бинарными данными, для низкоуровневых задач, когда требуется особая работа с памятью
 1. Building a Python C Extension Module (real python) https://realpython.com/build-python-c-extension-module/
-2. Производительность в Python. Легкий путь (o ctypes) https://habr.com/ru/post/157537/ (дока https://docs.python.org/3/library/ctypes.html)
+2. ~~Производительность в Python. Легкий путь (o ctypes) https://habr.com/ru/post/157537/ (дока https://docs.python.org/3/library/ctypes.html)~~
 3. Python — Программирование расширений на C https://coderlessons.com/tutorials/python-technologies/vyuchit-piton/python-programmirovanie-rasshirenii-na-c
 4. C/C++ из Python (ctypes) (хабр) https://habr.com/ru/post/466499/
 5. Как писать модули для питона на C и  go (первый доклад pytup'a) https://youtu.be/tpKs4UVe3Bk?t=487
@@ -353,7 +353,7 @@
 <a name="testing"></a>
 ### Тестирование [^](#index "к оглавлению")
 > Популярные библиотеки - pytests и unittest. Дата-провайдеры и фикстуры. Доктесты
-1. Введение в автотесты. Вебинар от OTUS https://www.youtube.com/watch?v=EBMXOsCL9AA
+1. ~~Введение в автотесты. Вебинар от OTUS https://www.youtube.com/watch?v=EBMXOsCL9AA~~
 2. Тестирование. Лекция из Академии Яндекса https://www.youtube.com/watch?v=2-EBSIRs0H4&list=PLQC2_0cDcSKBHamFYA6ncnc_fYuEQUy0s&index=4
 3. Лекция про тестирование от CSC https://www.youtube.com/watch?v=VomXaukdWxo
 4. TDD c pytest и без него. Урок OTUS https://www.youtube.com/watch?v=lxVv8cdSTsw

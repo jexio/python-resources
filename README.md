@@ -24,7 +24,6 @@
   * [Воспросы безопасности](#security)
   * [WCGI](#wcgi)
   * [Работа с СУБД. Драйверы. Популярные ORM](#databases)
-  * [Работа с данными](#datalibs)
   * [Работа с файлами](#files)
   * [Сетевое программирование](#network)
   * [Мониторинг приложений средствами ОС](#os)
@@ -260,15 +259,15 @@
 ### Работа с памятью [^](#index "к оглавлению")
 > Питон - очень неэкономный по памяти язык. Иногда возникают задачи, которые требуют знаний про то как питон работает с памятью (счетчик ссылок, арены и GC для циклических ссылок) и как можно эту память сэкономить.
 1. ~~«Память и Python. Что надо знать для счастья?» Алексей Кузьмин, ЦНС https://www.youtube.com/watch?v=D0vbuIDOV4c~~
-2. Python потребляет много памяти, или как уменьшить размер объектов. (доклад З.Шибзухова) https://www.youtube.com/watch?v=qUnzGUz_YxE
-3. Что внутри у питона: как устроена память (доклад З. Обуховской) https://www.youtube.com/watch?v=lSgoYx06L_s
-4. В. Синицын - Python: управление памятью https://www.youtube.com/watch?v=ZxvwZ4fX_qE
+2. ~~Python потребляет много памяти, или как уменьшить размер объектов. (доклад З.Шибзухова) https://www.youtube.com/watch?v=qUnzGUz_YxE~~
+3. ~~Что внутри у питона: как устроена память (доклад З. Обуховской) https://www.youtube.com/watch?v=lSgoYx06L_s~~
+4. ~~В. Синицын - Python: управление памятью https://www.youtube.com/watch?v=ZxvwZ4fX_qE~~
 5. Nina Zakharenko - Memory Management in Python - The Basics https://www.youtube.com/watch?v=URNdRl97q_0
 6. Всё, что нужно знать о сборщике мусора в Python (Artem Golubin) https://habr.com/ru/post/417215/
 7. Модуль GC стандартной библиотеки - официальная документация https://docs.python.org/3/library/gc.html
 8. Python memory managment 101 .Deeping garbage collector (J.M. Ortega, PyCon HK) https://www.youtube.com/watch?v=MHTJQao9Ex0
 9. Основы управления памятью в Python  https://webdevblog.ru/osnovy-upravleniya-pamyatju-v-python/
-10. Memory Management in Python https://realpython.com/python-memory-management/ (перевод https://habr.com/ru/company/ruvds/blog/441568/)
+10. ~~Memory Management in Python https://realpython.com/python-memory-management/ (перевод https://habr.com/ru/company/ruvds/blog/441568/)~~
 11. Управление памятью в Python https://habr.com/ru/company/mailru/blog/336156/
 12. Пару слов о профилировании памяти в Python https://otus.ru/nest/post/818/
 13. Finding and Fixing Memory Leaks in Python (Peter Karb, Buzzfeed) https://tech.buzzfeed.com/finding-and-fixing-memory-leaks-in-python-413ce4266e7d
@@ -287,8 +286,8 @@
 <a name="performance"></a>
 ### Вопросы производительности [^](#index "к оглавлению")
 > Несмотря на то, что питон - не самый быстрый язык, интерпретатор постоянно оптимизируют
-1. Python — это медленно. Почему? https://habr.com/ru/company/ruvds/blog/418823/
-2. Что я узнал про оптимизацию в Python (перевод статьи Gregory Szorc's) https://habr.com/ru/company/otus/blog/457942/
+1. ~~Python — это медленно. Почему? https://habr.com/ru/company/ruvds/blog/418823/~~
+2. ~~Что я узнал про оптимизацию в Python (перевод статьи Gregory Szorc's) https://habr.com/ru/company/otus/blog/457942/~~
 3. Which is the fastest version of Python? (статья Anthony Shaw, сравнение 2.7-3.7+pypy) https://hackernoon.com/which-is-the-fastest-version-of-python-2ae7c61a6b2b
 4. Оптимизации, сделавшие Python 3.6 быстрее Python 3.5 https://www.youtube.com/watch?v=zMECweCmuA4
 5. Anthony Shaw - Why is Python slow? (pycon) https://www.youtube.com/watch?v=I4nkgJdVZFA
@@ -302,9 +301,9 @@
 1. Flamegraph семплирующий профайлинг https://www.youtube.com/watch?v=kRA0RZoycMQ
 2. PyConBY 2020: Christian Heimes - Introduction to low level profiling and tracing https://www.youtube.com/watch?v=PXEP97uU0NQ
 3. Summary Of Python Profiling Tools http://pramodkumbhar.com/2019/05/summary-of-python-profiling-tools-part-i/ (на этом сайте есть еще хорошие статьи о производительности)
-4. Профилирование и отладка Python (цикл статей от mail.ru): https://habr.com/ru/company/mailru/blog/201594/ (теория), https://habr.com/ru/company/mailru/blog/201778/ (ручное и статистическое), https://habr.com/ru/company/mailru/blog/202832/ (событийное)
+~~4. Профилирование и отладка Python (цикл статей от mail.ru): https://habr.com/ru/company/mailru/blog/201594/ (теория), https://habr.com/ru/company/mailru/blog/201778/ (ручное и статистическое), https://habr.com/ru/company/mailru/blog/202832/ (событийное)~~
 5. Крутой sampling-профайлер (строит флеймграфы также) https://github.com/benfred/py-spy (must-have, так как pyflame больше по поддерживается)
-6. Алексей Кузьмин, ДомКлик «Поиск и оптимизация узких мест в Python» (+ про память) https://www.youtube.com/watch?v=tDZHhIiACDA
+6. ~~Алексей Кузьмин, ДомКлик «Поиск и оптимизация узких мест в Python» (+ про память) https://www.youtube.com/watch?v=tDZHhIiACDA~~
 7. Flamegraph that! Self-service profiling tool for Node and Python services (Ruth Grace Wong, Pinterest) https://www.youtube.com/watch?v=w97I5q0hbkw
 8. Иван Ремизов "Сверхоптимизация кода на Python" (PiterPy) доклад старый, но полезный https://www.youtube.com/watch?v=4CsOOfdoU2A
 9. PyTrace — Time Travel Debugger для Python https://habr.com/ru/post/504908/
@@ -319,12 +318,12 @@
 18. Emin Martinian - Statistical Profiling (and other fun with the sys module) - PyCon 2019 https://www.youtube.com/watch?v=d5SGUscT2GA
 19. Flame graph новый взгляд на привычное профилирование, Кирилл Борисов, Яндекс https://www.youtube.com/watch?v=pa_kAkXuOyA
 20. 9 nifty libraries for profiling Python code (InfoWorld) https://www.infoworld.com/article/3600993/9-nifty-libraries-for-profiling-python-code.html
-21. Новая интересная тулза для профилирования памяти https://github.com/bloomberg/memray
+21. ~~Новая интересная тулза для профилирования памяти https://github.com/bloomberg/memray~~
 
 <a name="logging"></a>
 ### Логирование и трейсинг [^](#index "к оглавлению")
 1. Трейсинг в микросервисной архитектуре на Python https://www.youtube.com/watch?v=DpndyJ-CK5s
-2. Читаем исходники open source Python библиотек. Библиотека Loguru (Диджитализируй!) https://www.youtube.com/watch?v=g6zzZxxifAw
+2. ~~Читаем исходники open source Python библиотек. Библиотека Loguru (Диджитализируй!) https://www.youtube.com/watch?v=g6zzZxxifAw~~
 3. Про Jaeger: как мы внедряли распределенную трассировку запросов, Амангельды Кыдыл https://www.youtube.com/watch?v=O5I301lYjzM
 4. Mario Corchero - Effortless Logging: A deep dive into the logging module - PyCon 2018 https://www.youtube.com/watch?v=Pbz1fo7KlGg
 5. OpenTracing with Jaeger - Utah Go User Group https://www.youtube.com/watch?v=GccUVCI5TkM
@@ -413,19 +412,6 @@
 8. Сравнение технологий aiopg & asyncpg, Алексей Фирсов / PyDaCon meetup https://www.youtube.com/watch?v=bY6ZU0-26TA
 9. "SQLAlchemy: Python vs Raw SQL" Денис Катаев https://www.youtube.com/watch?v=jUGK-CtM-Mk
 10. "Пишем приложения на SQLAlchemy" Денис Катаев https://www.youtube.com/watch?v=vXBlOvmzs_0
-
-<a name="datalibs"></a>
-### Работа с данными [^](#index "к оглавлению")
-1. Python NumPy Tutorial for Beginners (Freecodecamp.org) https://www.youtube.com/watch?v=QUT1VHiLmmI
-2. Pandas: How to Read and Write Files https://realpython.com/pandas-read-write-files/
-3. The Pandas DataFrame: Make Working With Data Delightful https://realpython.com/pandas-dataframe/
-4. Using Pandas and Python to Explore Your Dataset https://realpython.com/pandas-python-explore-dataset/
-5. NumPy, SciPy, and Pandas: Correlation With Python https://realpython.com/numpy-scipy-pandas-correlation-python/
-6. Python Statistics Fundamentals: How to Describe Your Data https://realpython.com/python-statistics/
-7. Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn) https://www.youtube.com/watch?v=r-uOLxNrNk8
-8. 6 способов значительно ускорить pandas с помощью пары строк кода https://habr.com/ru/post/503726/
-9. A Beginner’s Guide to Optimizing Pandas Code for Speed https://engineering.upside.com/a-beginners-guide-to-optimizing-pandas-code-for-speed-c09ef2c6a4d6
-10. Kevin Markham - Data Science Best Practices with pandas - PyCon 2019 https://www.youtube.com/watch?v=ZjrUmNq41Eo
 
 <a name="files"></a>
 ### Работа с файлами [^](#index "к оглавлению")

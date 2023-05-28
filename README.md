@@ -168,16 +168,16 @@
 9. Как устроен GIL в Python https://habr.com/ru/post/84629/
 10. Global Interpreter Lock https://ru.wikipedia.org/wiki/Global_Interpreter_Lock
 11. Grok the GIL: How to write fast and thread-safe Python https://opensource.com/article/17/4/grok-gil
-12. Асинхронный Python: различные формы конкурентности https://habr.com/ru/post/421625/
+12. ~~Асинхронный Python: различные формы конкурентности https://habr.com/ru/post/421625/~~
 13. Слайды доклада Д.Бизли "Understanding the Python GIL" http://www.dabeaz.com/python/UnderstandingGIL.pdf
 14. Модуль `concurrent.futures` https://pymotw.com/3/concurrent.futures/
 15. Speed Up Your Python Program With Concurrency https://realpython.com/python-concurrency/
 16. Gevent для практикующего питониста https://vovkd.github.io/gevent-tutorial/
 17. Потоки и процессы (не смешивать), Станислав Рудаков (+ пример использования gdb) [Minsk Python Meetup] https://www.youtube.com/watch?v=mrXsn3yyuDM
 18. Tutorial: Santiago Basulto - Python Concurrency: from beginner to pro https://www.youtube.com/watch?v=18B1pznaU1o
-19. Thread (and AsyncIO) Concurrency Visualization of JetBrains Pycharm and Idea https://www.jetbrains.com/help/pycharm/thread-concurrency-visualization.html
+19. ~~Thread (and AsyncIO) Concurrency Visualization of JetBrains Pycharm and Idea https://www.jetbrains.com/help/pycharm/thread-concurrency-visualization.html~~
 20. Python's Infamous GIL by Larry Hastings (для чего нужен GIL) https://www.youtube.com/watch?v=KVKufdTphKs
-21. Concurrency In Python Concepts, Frameworks And Best Practices - Stefan Schwarzer (PyCon DE) https://www.youtube.com/watch?v=Do7JtnPh1Mg
+21. ~~Concurrency In Python Concepts, Frameworks And Best Practices - Stefan Schwarzer (PyCon DE) https://www.youtube.com/watch?v=Do7JtnPh1Mg~~
 22. Raymond Hettinger, Keynote on Concurrency, PyBay 2017 https://www.youtube.com/watch?v=9zinZmE3Ogk
 23. Jacek Kolodziej: GIL: What's the hassle and why should I care? (PyCon CZ 2017) https://www.youtube.com/watch?v=ZvWmAIODi-s
 24. Writing robust, readable, and maintainable concurrent programs in Python - PyCon APAC 2018 https://www.youtube.com/watch?v=DJnUctSQSGw
